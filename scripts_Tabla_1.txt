@@ -1,0 +1,1140 @@
+edit GW_GAMSC
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 86400
+set peertype any
+set net-device disable
+set proposal aes256-sha1
+set dhgrp 2
+set remote-gw 190.186.51.82
+set psksecret mardel
+next
+
+edit GW_SEDEGES-LP
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.181.60.148
+set psksecret mardel
+next
+
+edit GW_BCB-SUCRE
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.181.42
+set psksecret mardel
+next
+
+edit GW_CENETROP
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.181.23.188
+set psksecret mardel
+next
+
+edit GW_SEDEM
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115188138
+set psksecret mardel
+next
+
+edit GW_MUSERPOL
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.181.17.18
+set psksecret mardel
+next
+
+edit GW_NOTARIADO
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.188.34
+set psksecret mardel
+next
+
+edit GW_EBC
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115182243
+set psksecret mardel
+next
+
+edit GW_SLGAD-CHUQUISACA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.185.42
+set psksecret mardel
+next
+
+edit GW_CARTONBOL_SIGMA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.90.144.234
+set psksecret mardel
+next
+
+edit GW_CONSERVATORIOMUSICA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200105171178
+set psksecret mardel
+next
+
+edit GW_LACTEOS-ECEBOL
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.181.21.18
+set psksecret mardel
+next
+
+edit GW_EASBA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.181.6.66
+set psksecret mardel
+next
+
+edit GW_AGEMED
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.181.63.84
+set psksecret mardel
+next
+
+edit GW_UCEP
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.181.32.242
+set psksecret mardel
+next
+
+edit GW_UPRE1
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200105137130
+set psksecret mardel
+next
+
+edit GW_ANH
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.33.113.130
+set psksecret mardel
+next
+
+edit GW_RUAT
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.181.41.242
+set psksecret mardel
+next
+
+edit GW_ABT
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.87.193.106
+set psksecret mardel
+next
+
+edit GW_CEUB
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.181.63.75
+set psksecret mardel
+next
+
+edit GW_EMPODERAR
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115207115
+set psksecret mardel
+next
+
+edit GW_SENASBA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115176101
+set psksecret mardel
+next
+
+edit GW_VIAS-POTOSI
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115203138
+set psksecret mardel
+next
+
+edit GW_ESCUELA_JUECES
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 177222122154
+set psksecret mardel
+next
+
+edit GW_EBA_RIBERALTA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.129.50.34
+set psksecret mardel
+next
+
+edit GW_ABEN
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.151.34
+set psksecret mardel
+next
+
+edit GW_VIAS_SUCRE
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115187130
+set psksecret mardel
+next
+
+edit GW_OFEP
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal des-sha1 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.202.59
+set psksecret mardel
+next
+
+edit GW_EBIH
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.58.84.162
+set psksecret mardel
+next
+
+edit GW_SENASAG-LP
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.181.32.74
+set psksecret mardel
+next
+
+edit GW_UMSS-CBBA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.181.51.42
+set psksecret mardel
+next
+
+edit GW_VIAS_COCHABAMBA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.58.76.204
+set psksecret mardel
+next
+
+edit GW_AEVIVIENDA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 186.121.202.12
+set psksecret mardel
+next
+
+edit GW_SENARECOM
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115181122
+set psksecret mardel
+next
+
+edit GW_SEPDAVI
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115204238
+set psksecret mardel
+next
+
+edit GW_SEDEGES-CBBA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.177.141.91
+set psksecret mardel
+next
+
+edit GW_UNIBOL
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.129.79.43
+set psksecret mardel
+next
+
+edit GW_SEA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.87.110.162
+set psksecret mardel
+next
+
+edit GW_GAM-URIONDO
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115206154
+set psksecret mardel
+next
+
+edit GW_NUEVO-FONDO-INDIGENA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 45.163.18.105
+set psksecret mardel
+next
+
+edit GW_GAM_SUCRE_1
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115145203
+set psksecret mardel
+next
+
+edit GW_UAJMS-TARIJA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.87.33.99
+set psksecret mardel
+next
+
+edit GW_GAM-POTOSI
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.182.19
+set psksecret mardel
+next
+
+edit GW_MUTUN_SC
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115179178
+set psksecret mardel
+next
+
+edit GW_OPCE
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.149.37
+set psksecret mardel
+next
+
+edit GW_SENASAG-TRINIDAD
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.186.38
+set psksecret mardel
+next
+
+edit GW_ASP-B
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.181.51.98
+set psksecret mardel
+next
+
+edit GW_AISEM
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.181.7.92
+set psksecret mardel
+next
+
+edit GW_AGBC
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.203.42
+set psksecret mardel
+next
+
+edit GW_AIT_LP
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.151.18
+set psksecret mardel
+next
+
+edit GW_FONABOSQUE-LP
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 186121214194
+set psksecret mardel
+next
+
+edit GW_ATT_SITTEL
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.129.78.152
+set psksecret mardel
+next
+
+edit GW_TAB
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 186121201253
+set psksecret mardel
+next
+
+edit GW_VIAS-ORURO
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115187206
+set psksecret mardel
+next
+
+edit GW_DEFENSA_PUBLICA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200105171206
+set psksecret mardel
+next
+
+edit GW_VIAS_TARIJA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115221178
+set psksecret mardel
+next
+
+edit GW_FOFIM
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 186.121.201.34
+set psksecret mardel
+next
+
+edit GW_VIAS-LAPAZ
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200105172155
+set psksecret mardel
+next
+
+edit GW_CEASS
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115182131
+set psksecret mardel
+next
+
+edit GW_COVIPOL
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-md5
+set dhgrp 2
+set remote-gw 190.181.15.132
+set psksecret mardel
+next
+
+edit GW_YLB
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 186121201186
+set psksecret mardel
+next
+
+edit GW_FONADIN
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.188.172.4
+set psksecret mardel
+next
+
+edit GW_SENAMHI
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.151.61
+set psksecret mardel
+next
+
+edit GW_ASUSS
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.87.130.39
+set psksecret mardel
+next
+
+edit GW_SENAVEX
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.193.42
+set psksecret mardel
+next
+
+edit GW_ABE
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.129.176.34
+set psksecret mardel
+next
+
+edit GW_AE
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.201.34
+set psksecret mardel
+next
+
+edit GW_UE-FNSE
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.105.154.53
+set psksecret mardel
+next
+
+edit GW_TRIBUNALCONSTITUCIONAL
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115147170
+set psksecret mardel
+next
+
+edit GW_PRONAREC
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.181.13.178
+set psksecret mardel
+next
+
+edit GW_MUSEF
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115156234
+set psksecret mardel
+next
+
+edit GW_ASINSA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190129163218
+set psksecret mardel
+next
+
+edit GW_SLGAD-COCHABAMBA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.87.73.74
+set psksecret mardel
+next
+
+edit GW_GAMCULPINA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.87.17.30
+set psksecret mardel
+next
+
+edit GW_SLGAM-ORURO
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115235123
+set psksecret mardel
+next
+
+edit GW_GAD-BENI
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.188.156.58
+set psksecret mardel
+next
+
+edit GW_GAD-POTOSI
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.129.25.38
+set psksecret mardel
+next
+
+edit GW_GAD-TARIJA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.104.22.158
+set psksecret mardel
+next
+
+edit GW_GAD_SC
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200119197130
+set psksecret mardel
+next
+
+edit GW_GAM-CBBA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181188191238
+set psksecret mardel
+next
+
+edit GW_GAM-TARIJA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.87.35.186
+set psksecret mardel
+next
+
+edit GW_GAM-YACUIBA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.87.26.98
+set psksecret mardel
+next
+
+edit GW_GAMEA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200105172125
+set psksecret mardel
+next
+
+edit GW_UAP
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115188249
+set psksecret mardel
+next
+
+edit GW_GAM_RIBERALTA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.188.191.19
+set psksecret mardel
+next
+
+edit GW_UABJB
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.129.48.212
+set psksecret mardel
+next
+
+edit GW_SLU-UMSFX
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.87.9.68
+set psksecret mardel
+next
+
+edit GW_UNIVERSIDADPEDAGOJICASUCRE
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115148210
+set psksecret mardel
+next
+
+edit GW_SLGAD-ORURO
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.146.42
+set psksecret mardel
+next
+
+edit GW_SLGAD-PANDO
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181.115.240.28
+set psksecret mardel
+next
+
+edit GW_UNIVTARIJA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 200.87.26.211
+set psksecret mardel
+next
+
+edit GW_UNIBOL-QUECHUA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115188106
+set psksecret mardel
+next
+
+edit GW_TOMASFRIAS-UATF-POTOSI
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115184106
+set psksecret mardel
+next
+
+edit GW_SLUTO-ORU
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 181115182162
+set psksecret mardel
+next
+
+edit GW_SegUniv_CBBA
+set interface "ENTEL_A"
+set ike-version 1
+set keylife 28800
+set peertype any
+set net-device disable
+set proposal 3des-sha1
+set dhgrp 2
+set remote-gw 190.129.70.206
+set psksecret mardel
+next
+
